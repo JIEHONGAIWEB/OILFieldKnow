@@ -1,0 +1,13 @@
+# Perf note: <area>
+
+- Date: YYYY-MM-DD
+
+## Symptom / Bottleneck
+...
+
+## Measurement
+Before: ...
+After: ...
+
+## Fix
+...

@@ -1,0 +1,17 @@
+C:\Users\h224847\code\EEE-WPO\wpo-new-2026.7.16\wpo-app\libs\shared\src\lib\components\com-map\builders\com-map-point.builder.ts
+C:\Users\h224847\code\EEE-WPO\wpo-new-2026.7.16\wpo-app\libs\shared\src\lib\components\com-map\handlers\com-map-cursor.handler.ts
+C:\Users\h224847\code\EEE-WPO\wpo-new-2026.7.16\wpo-app\libs\shared\src\lib\components\com-map\handlers\com-map-selection.handler.ts
+C:\Users\h224847\code\EEE-WPO\wpo-new-2026.7.16\wpo-app\libs\shared\src\lib\components\com-map\utils\com-map-icon-attributes.util.ts
+C:\Users\h224847\code\EEE-WPO\wpo-new-2026.7.16\wpo-app\libs\shared\src\lib\components\com-map\utils\com-map-lifecycle.util.ts
+C:\Users\h224847\code\EEE-WPO\wpo-new-2026.7.16\wpo-app\libs\shared\src\lib\components\com-map\utils\com-map-render.util.ts
+C:\Users\h224847\code\EEE-WPO\wpo-new-2026.7.16\wpo-app\libs\shared\src\lib\components\com-map\utils\com-map.icon-canvas.util.ts
+C:\Users\h224847\code\EEE-WPO\wpo-new-2026.7.16\wpo-app\libs\shared\src\lib\components\com-map\com-map.component.ts
+C:\Users\h224847\code\EEE-WPO\wpo-new-2026.7.16\wpo-app\libs\shared\src\lib\components\com-map\com-map.legend-icons.ts
+C:\Users\h224847\code\EEE-WPO\wpo-new-2026.7.16\wpo-app\libs\shared\src\lib\components\com-map\com-map.types.ts
+C:\Users\h224847\code\EEE-WPO\wpo-new-2026.7.16\wpo-app\libs\shared\src\lib\components\com-map-filter-sidebar\com-map-filter-sidebar.component.ts
+C:\Users\h224847\code\EEE-WPO\wpo-new-2026.7.16\wpo-app\libs\shared\src\lib\components\index.ts
+C:\Users\h224847\code\EEE-WPO\wpo-new-2026.7.16\wpo-app\libs\wpe\src\lib\features\well-test-validation-overview\components\map-filter-panel\map-filter-panel.component.ts
+C:\Users\h224847\code\EEE-WPO\wpo-new-2026.7.16\wpo-app\libs\wpe\src\lib\features\well-test-validation-overview\components\map-panel\map-panel.component.html
+C:\Users\h224847\code\EEE-WPO\wpo-new-2026.7.16\wpo-app\libs\wpe\src\lib\features\well-test-validation-overview\components\map-panel\map-panel.component.ts
+C:\Users\h224847\code\EEE-WPO\wpo-new-2026.7.16\wpo-app\libs\wso\src\lib\components\map\wso-map-panel\wso-map-panel.component.html
+C:\Users\h224847\code\EEE-WPO\wpo-new-2026.7.16\wpo-app\libs\wso\src\lib\components\map\wso-map-panel\wso-map-panel.component.ts
