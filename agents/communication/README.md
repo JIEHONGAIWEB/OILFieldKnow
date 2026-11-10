@@ -13,6 +13,8 @@
 | [message-polisher.md](message-polisher.md) | 通用消息润色 | 任意零散表达 → 可发送的消息 |
 | [code-review-request.md](code-review-request.md) | Code Review 请求 | 向队友发起 PR Review |
 | [standup-update.md](standup-update.md) | Daily Standup | 每日站会文字更新 |
+| [daily-review.md](daily-review.md) | 每日回顾 | 当日工作整理为 daily-log 格式 |
+| [yesterday-review.md](yesterday-review.md) | 昨日回顾 | 回顾前一天的工作记录 |
 | [release-announcement.md](release-announcement.md) | 发布通知 | 功能上线 / Bug 修复发布 |
 | [meeting-summary.md](meeting-summary.md) | 会议总结 | 对齐会、复盘会、快速沟通后的总结 |
 | [issue-response.md](issue-response.md) | Bug / Issue 回复 | 回复问题报告人，说明状态和进展 |
@@ -36,6 +38,8 @@
 | message-polisher | 请使用 message-polisher 代理润色:<内容> |
 | code-review-request | 请使用 code-review-request 代理:<PR 说明> |
 | standup-update | 请使用 standup-update 代理:<今天做了什么> |
+| daily-review | 请使用 daily-review 代理:<今天做了什么> |
+| yesterday-review | 请使用 yesterday-review 代理:<昨天做了什么,或留空读取昨日日志> |
 | release-announcement | 请使用 release-announcement 代理:<发布内容> |
 | meeting-summary | 请使用 meeting-summary 代理:<会议记录> |
 | issue-response | 请使用 issue-response 代理:<问题和进展> |
