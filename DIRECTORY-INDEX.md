@@ -24,6 +24,8 @@
 需要查"维护哪些项目、仓库/文档地址在哪、长期目标是什么"时,看:
 
 - [project-memory/long-term-maintenance-register.md](project-memory/long-term-maintenance-register.md):长期维护项目与文档地址台账
+- [project-memory/dfs-dojo-armour-overview.md](project-memory/dfs-dojo-armour-overview.md):DFS Dojo Armour 项目介绍与能力地图(AI 操作画布的参考实现,对照 WPO Agent 想法)
+- [project-memory/system-whole-person-react-app-overview.md](project-memory/system-whole-person-react-app-overview.md):systemWholePerson / react-app 项目介绍与文档集成(工作台、AI-first 规则、LangGraph 流水线)
   - 维护长久-知识图谱:JIEHONGAIWEB/OILFieldKnow
   - 维护长久-项目建设:JIEHONGAIWEB/systemWholePerson
   - 自动化测试:JIEHONGAIWEB/AutoUITest
@@ -38,7 +40,9 @@
 - [analysis/README.md](analysis/README.md):🔍 分析沉淀:需求分析与方案取舍(存放规则与用途)
 - [analysis/_template.md](analysis/_template.md):分析过程模板（可直接复制）
 - [feature-history/requirements-index.md](feature-history/requirements-index.md):需求索引与需求模板
+- [workflow/development/task-and-issue-guidelines.md](workflow/development/task-and-issue-guidelines.md):Task 拆分与问题描述规范(设计稿补充、测试问题/优化项分开建 Task、问题描述要具体)
 - [analysis/2026-11-10-ai-agent-trend-exploration-analysis.md](analysis/2026-11-10-ai-agent-trend-exploration-analysis.md):AI Agent + Model Management / Scheduler 趋势探索
+- [analysis/2026-11-10-wpo-mcp-requirement-analysis.md](analysis/2026-11-10-wpo-mcp-requirement-analysis.md):WPO 引入 MCP:需求分析与可探索方向
 
 > 建议流程:先写需求索引/需求文档,再在 `analysis/` 记录分析过程与方案取舍。
 

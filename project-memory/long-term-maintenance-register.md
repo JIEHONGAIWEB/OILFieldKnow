@@ -15,7 +15,7 @@
 | 维护方向 | 仓库标识 | 项目地址 | 文档地址（当前） | 文档地址（建议） | 备注 |
 |---|---|---|---|---|---|
 | 维护长久-知识图谱 | JIEHONGAIWEB/OILFieldKnow | https://github.com/JIEHONGAIWEB/OILFieldKnow | https://github.com/JIEHONGAIWEB/OILFieldKnow#readme | https://github.com/JIEHONGAIWEB/OILFieldKnow/tree/main/docs | 作为知识图谱与文档中枢 |
-| 维护长久-项目建设 | JIEHONGAIWEB/systemWholePerson | https://github.com/JIEHONGAIWEB/systemWholePerson | https://github.com/JIEHONGAIWEB/systemWholePerson#readme | https://github.com/JIEHONGAIWEB/systemWholePerson/tree/main/docs | 作为系统建设与落地项目 |
+| 维护长久-项目建设 | JIEHONGAIWEB/systemWholePerson | https://github.com/JIEHONGAIWEB/systemWholePerson | https://github.com/JIEHONGAIWEB/systemWholePerson#readme | https://github.com/JIEHONGAIWEB/systemWholePerson/tree/main/docs | 作为系统建设与落地项目(本地 react-app,详见 [system-whole-person-react-app-overview.md](system-whole-person-react-app-overview.md)) |
 | 自动化测试 | JIEHONGAIWEB/AutoUITest | https://github.com/JIEHONGAIWEB/AutoUITest | https://github.com/JIEHONGAIWEB/AutoUITest#readme | https://github.com/JIEHONGAIWEB/AutoUITest/tree/main/docs | 作为自动化测试能力建设 |
 
 ## 3. 长期目标（书面化）

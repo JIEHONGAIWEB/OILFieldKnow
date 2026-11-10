@@ -25,6 +25,9 @@
 
 - [2026-11-09-project-doc-entry-optimization-analysis.md](2026-11-09-project-doc-entry-optimization-analysis.md) — 项目文档入口优化与沉淀机制分析（示例）
 - [2026-11-10-ai-agent-trend-exploration-analysis.md](2026-11-10-ai-agent-trend-exploration-analysis.md) — AI Agent 驱动 Model Management / Scheduler 的趋势探索
+- [2026-11-10-wpo-mcp-requirement-analysis.md](2026-11-10-wpo-mcp-requirement-analysis.md) — WPO 引入 MCP:需求分析与可探索方向
+
+- [2026-11-10-wpo-agent-native-opportunity-analysis.md](2026-11-10-wpo-agent-native-opportunity-analysis.md) — WPO Agent-Native:用 Agent 取代界面操作的机会分析
 
 ## 推荐写作流程
 
