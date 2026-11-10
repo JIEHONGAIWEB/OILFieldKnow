@@ -11,5 +11,7 @@
 - [well-model-management.md](well-model-management.md) — Well Model Management
   dashboard: test validation, model calibration, model KPI/accuracy, test
   priority (Production-Engineering governance, not production monitoring).
+- [ai-agent-model-driven-optimization.md](ai-agent-model-driven-optimization.md)
+  — AI Agent + Model Management + Scheduler:模型驱动优化与实时闭环控制的边界。
 - [production/](production/README.md) — production-monitoring KPIs by production
   method (SF Oil / ESP / SF Gas / GL).

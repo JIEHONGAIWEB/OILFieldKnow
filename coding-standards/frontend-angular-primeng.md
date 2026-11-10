@@ -90,6 +90,22 @@ Apply the rules strictly, precisely, and constructively.
 - 7.1 Use semantic HTML tags wherever appropriate.
 - 7.2 All `<img>` tags MUST include a meaningful `alt` attribute.
 
+## 8. Code Organization (复杂功能的分组与分布)
+
+适用于**功能复杂**的文件/模块(条目多、职责杂、config/builder/导出项多)。简单文件无需强行分组。
+
+- 8.1 复杂功能 MUST 按职责**分组**,同一组的代码放在一起,不要按"想到什么写什么"的顺序堆叠。
+- 8.2 每个分组 MUST 有一行**中文分组注释**作为标题,例如
+  `// ==================== 常量与枚举 ====================`。
+- 8.3 默认分组顺序(可按实际裁剪,但相对顺序保持一致):
+  类型/接口 → 枚举与常量 → 配置 → 工具/纯函数 → 核心逻辑(类/服务/Builder)→ 导出。
+- 8.4 **导出顺序**与分组顺序一致,同类导出相邻;对外导出(`export` / barrel `index.ts`)集中管理,
+  不在文件中间零散穿插。
+- 8.5 注释使用**中文**,说明"做什么 / 为什么",不复述代码字面含义。
+- 8.6 **新增或修改的部分 MUST 同步补充中文注释**,并放入所属分组,不得追加在文件末尾了事。
+- 8.7 过大的文件按分组拆分到多个文件(分布),各文件职责单一;拆分后用 `index.ts` 统一导出。
+- 8.8 整理仅调整**顺序、分组与注释**,不得改动逻辑与行为;整理与功能变更分开提交。
+
 ## Review Output Format
 
 When performing a code review against these rules, output in this format:
