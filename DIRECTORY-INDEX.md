@@ -11,8 +11,11 @@
 - [daily-log/README.md](daily-log/README.md):说明规范(每天一个 `YYYY-MM-DD.md`)
 - [daily-log/2026-11-06.md](daily-log/2026-11-06.md):现成模板(今日完成 / 遇到的问题 / 明日计划)
 - [agents/communication/standup-update.md](agents/communication/standup-update.md):把零散输入整理成可直接发送的站会日报
+- [agents/communication/daily-review.md](agents/communication/daily-review.md):每日回顾规则(今日完成 / 沉淀价值 / 待跟进 / 遇到的问题 / 明日计划),格式与 `daily-log/` 一致
+- [.claude/agents/daily-review.md](.claude/agents/daily-review.md):每日回顾 Claude Code 代理定义
+  - 启动方式:<mark>`请使用 daily-review 代理:<今天的工作内容>`</mark>,或 <mark>`请使用 daily-review 代理回顾 daily-log/YYYY-MM-DD.md`</mark>
 
-> 建议日常流程:先在 `daily-log/` 记录,再用 `standup-update` 整理成对外同步消息。
+> 建议日常流程:先用 `daily-review` 把当天的工作整理成回顾并写入 `daily-log/`,再用 `standup-update` 整理成对外同步消息。
 
 ---
 
@@ -25,6 +28,62 @@
 - [feature-history/requirements-index.md](feature-history/requirements-index.md):需求索引与需求模板
 
 > 建议流程:先写需求索引/需求文档,再在 `analysis/` 记录分析过程与方案取舍。
+
+---
+
+## 🤖 <mark>助手总览:说明与启动调用方式</mark>
+
+仓库内共 **17 个助手条目**,分布在三处:`.claude/agents/`(Claude Code 代理,10 个)、`agents/copilot/`(Copilot Agent,7 个文件,其中 `docs-analysis` 为规范参考、`angularDeveloper` 为未完成模板)、`agents/communication/`(沟通类规则源文件,7 个 + README)。`.claude/agents/` 中的沟通类代理与 `agents/communication/` 的规则保持一一对应,规则只维护一份(见 [agents/communication/README.md](agents/communication/README.md))。
+
+**📘 详细文档:[agents/README.md](agents/README.md)**(每个助手的用途、规则、输入输出、定义文件与启动方式,可直接点击打开)
+
+### 启动方式速查
+
+- **Claude Code 代理**:<mark>在会话中输入 `请使用 <代理名> 代理:<输入内容>`,或 `<原话> <代理名>`</mark>。新增代理文件后需重启会话。
+- **Copilot Agent**:<mark>将 `.agent.md` 文件复制到仓库根目录的 `.github/agents/`,然后在 Copilot Chat 的 Agent 下拉中选择对应名称</mark>。(`.github/agents/` 当前仓库中不存在,需要手动创建。)
+- **Git 分支同步脚本**:<mark>`.\workflow\development\git-branch-sync-assistant.ps1 -RepoPath "C:\path\to\your\repo"`</mark>(加 `-Push` 推送,加 `-CreateCommit` 生成提交。)
+
+#### Git 分支同步快速操作卡片
+
+1. 准备仓库并同步远端:
+	`git -C "C:\path\to\your\repo" fetch --all --prune`
+2. 仅创建本地 update 分支:
+	`.\workflow\development\git-branch-sync-assistant.ps1 -RepoPath "C:\path\to\your\repo"`
+3. 创建并推送:
+	`.\workflow\development\git-branch-sync-assistant.ps1 -RepoPath "C:\path\to\your\repo" -Push`
+4. 创建 + 提交 + 推送（会 `git add -A` 纳入当前所有改动）:
+	`.\workflow\development\git-branch-sync-assistant.ps1 -RepoPath "C:\path\to\your\repo" -CreateCommit -Push`
+5. 校验远端结果:
+	`git -C "C:\path\to\your\repo" ls-remote --heads origin "sync/*/update-*"`
+
+完整流程文档见 [workflow/development/README.md](workflow/development/README.md)。
+
+### Claude Code 代理(`.claude/agents/`)
+
+| 代理 | 中文含义 | 启动方式 |
+|---|---|---|
+| `message-polisher` | 消息润色 | <mark>`请使用 message-polisher 代理润色:<内容>`</mark> |
+| `code-review-request` | 代码评审请求 | <mark>`请使用 code-review-request 代理:<PR 说明>`</mark> |
+| `standup-update` | 站会更新 | <mark>`请使用 standup-update 代理:<今天做了什么>`</mark> |
+| `release-announcement` | 发布通知 | <mark>`请使用 release-announcement 代理:<发布内容>`</mark> |
+| `meeting-summary` | 会议总结 | <mark>`请使用 meeting-summary 代理:<会议记录>`</mark> |
+| `issue-response` | Issue 回复 | <mark>`请使用 issue-response 代理:<问题和进展>`</mark> |
+| `doc-sync` | 文档同步 | <mark>`请使用 doc-sync 代理:<文件路径或粘贴内容>`</mark> |
+| `doc-translator` | 中译英与要点提取 | <mark>`请使用 doc-translator 代理:<中文文档描述>`</mark> |
+| `daily-review` | 每日回顾 | <mark>`请使用 daily-review 代理:<今天的工作内容>`</mark>,或 <mark>`请使用 daily-review 代理回顾 daily-log/YYYY-MM-DD.md`</mark> |
+| `git-branch-sync` | Git 分支同步 | <mark>`请使用 git-branch-sync 代理:同步 <仓库路径>`(可加"并推送"/"提交并推送")</mark> |
+
+### Copilot Agent(`agents/copilot/`)
+
+| Agent 文件 | Agent 名称 | 启动方式 |
+|---|---|---|
+| `zh-AngularDEveloper.agent.md` | `angularDeveloper`(中文版) | <mark>复制到 `.github/agents/`,Copilot Chat 选择 `angularDeveloper`</mark> |
+| `Senior Angular Engineer + Requirement Analyst + Reviewer.agent.md` | `angularDeveloper`(英文版) | <mark>复制到 `.github/agents/`,Copilot Chat 选择 `angularDeveloper`(与中文版同名,只启用一个)</mark> |
+| `Message Polisher Agent.agent.md` | `Message Polisher Agent` | <mark>复制到 `.github/agents/`,Copilot Chat 选择 `Message Polisher Agent`</mark> |
+| `git-branch-sync-assistant.agent.md` | `Git Branch Sync Assistant` | <mark>复制到 `.github/agents/`,Copilot Chat 选择 `Git Branch Sync Assistant`;或直接运行脚本</mark> |
+| `discuss-docs.agent.md` | 无 frontmatter(角色提示词) | 文件未定义启动方式(待确认) |
+| `docs-analysis.agent.md` | 文档目录规范 | 不可直接调用,作为规范参考 |
+| `angularDeveloper.agent.md` | 模板(未完成) | 暂无启动方式 |
 
 ---
 
@@ -114,6 +173,8 @@
 | `pre-push-safety` | 推送前安全检查 | 检查未跟踪文件、分支命名、远端、上游跟踪、最近一次提交 |
 
 ### 2.3 Agent
+
+> 每个助手的完整说明与启动调用方式见上方「助手总览」章节,详细文档见 [agents/README.md](agents/README.md)。
 
 | 位置 | 中文含义 | 内容 |
 |---|---|---|
