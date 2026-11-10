@@ -1,4 +1,6 @@
-# analysis
+# 🔍 <mark>分析沉淀:需求分析与方案取舍</mark>
+
+`analysis/`
 
 需求分析与方案分析沉淀区。用于把项目分析过程以文档形式保存，便于后续人员复盘、接手与追踪。
 
@@ -22,6 +24,7 @@
 ## 示例
 
 - [2026-11-09-project-doc-entry-optimization-analysis.md](2026-11-09-project-doc-entry-optimization-analysis.md) — 项目文档入口优化与沉淀机制分析（示例）
+- [2026-11-10-ai-agent-trend-exploration-analysis.md](2026-11-10-ai-agent-trend-exploration-analysis.md) — AI Agent 驱动 Model Management / Scheduler 的趋势探索
 
 ## 推荐写作流程
 

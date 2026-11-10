@@ -6,6 +6,7 @@
 - meeting.md:会议用语
 - email.md:邮件模板
 - feedback.md:反馈、催办话术
+- leader.md:领导沟通(请假、居家办公、进展同步、站会缺席)
 
 ## 如何调用 doc-translator 代理
 

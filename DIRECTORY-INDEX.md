@@ -19,13 +19,26 @@
 
 ---
 
+## 🔧 <mark>快速入口:长期维护</mark>
+
+需要查"维护哪些项目、仓库/文档地址在哪、长期目标是什么"时,看:
+
+- [project-memory/long-term-maintenance-register.md](project-memory/long-term-maintenance-register.md):长期维护项目与文档地址台账
+  - 维护长久-知识图谱:JIEHONGAIWEB/OILFieldKnow
+  - 维护长久-项目建设:JIEHONGAIWEB/systemWholePerson
+  - 自动化测试:JIEHONGAIWEB/AutoUITest
+  - 维护长久-长期目标:文档化、标准化、可追踪化,含每周/双周/每月维护节奏
+
+---
+
 ## 🧭 <mark>快速入口:需求与分析过程沉淀</mark>
 
 当你需要把"需求、分析过程、方案取舍"沉淀成可复用文档时,优先用:
 
-- [analysis/README.md](analysis/README.md):分析文档存放规则与用途
+- [analysis/README.md](analysis/README.md):🔍 分析沉淀:需求分析与方案取舍(存放规则与用途)
 - [analysis/_template.md](analysis/_template.md):分析过程模板（可直接复制）
 - [feature-history/requirements-index.md](feature-history/requirements-index.md):需求索引与需求模板
+- [analysis/2026-11-10-ai-agent-trend-exploration-analysis.md](analysis/2026-11-10-ai-agent-trend-exploration-analysis.md):AI Agent + Model Management / Scheduler 趋势探索
 
 > 建议流程:先写需求索引/需求文档,再在 `analysis/` 记录分析过程与方案取舍。
 
@@ -129,8 +142,9 @@
 | `project-memory/` | 项目记忆 | 业务记忆、编码记忆、Bug 记忆 |
 | `bug-knowledge/` | Bug 知识库 | 已知问题与解决方案 |
 | `feature-history/` | 功能历史 | 各功能的演进记录 |
-| `analysis/` | 分析沉淀 | 需求分析、方案对比、影响评估、风险记录 |
+| `analysis/` | 分析沉淀:需求分析与方案取舍 | 需求分析、方案对比、趋势探索、影响评估、风险记录 |
 | `open-questions/` | 待确认问题 | 尚未解决的疑问 |
+| `requirement-ideas/` | 需求想法 | 尚未正式立项的需求想法、改进建议与沟通记录 |
 | `daily-log/` | 每日日志 | 按日期的工作记录 |
 | `PROJECT-OVERVIEW.md` | 项目概览 | 项目整体介绍 |
 
