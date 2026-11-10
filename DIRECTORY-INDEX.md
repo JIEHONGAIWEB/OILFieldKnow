@@ -19,6 +19,18 @@
 
 ---
 
+## 🔧 <mark>快速入口:长期维护</mark>
+
+需要查"维护哪些项目、仓库/文档地址在哪、长期目标是什么"时,看:
+
+- [project-memory/long-term-maintenance-register.md](project-memory/long-term-maintenance-register.md):长期维护项目与文档地址台账
+  - 维护长久-知识图谱:JIEHONGAIWEB/OILFieldKnow
+  - 维护长久-项目建设:JIEHONGAIWEB/systemWholePerson
+  - 自动化测试:JIEHONGAIWEB/AutoUITest
+  - 维护长久-长期目标:文档化、标准化、可追踪化,含每周/双周/每月维护节奏
+
+---
+
 ## 🧭 <mark>快速入口:需求与分析过程沉淀</mark>
 
 当你需要把"需求、分析过程、方案取舍"沉淀成可复用文档时,优先用:
