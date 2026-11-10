@@ -2,6 +2,10 @@
 
 Dev workflow: branching model, code review process, release cadence.
 
+## 文档索引
+
+- [task-and-issue-guidelines.md](task-and-issue-guidelines.md):Task 拆分与问题描述规范(设计稿补充、测试问题/优化项分开建 Task、问题描述具体化)
+
 ## Git 指令整体使用过程（分支同步助手）
 
 适用命令：
