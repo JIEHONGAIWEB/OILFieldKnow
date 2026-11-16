@@ -7,6 +7,7 @@
 | 文件 | 主题 | 状态 |
 | --- | --- | --- |
 | [2026-11-10-prod-build-security-scan.md](2026-11-10-prod-build-security-scan.md) | Pipeline 改为 Production configuration 打包后再做安全扫描(Xray) | 沟通中 |
+| [2026-11-11-model-management-agent-prd-example.md](2026-11-11-model-management-agent-prd-example.md) | Model Management Agent 需求文档示例(查询、上传、校准、工具契约、验收标准) | Draft(示例) |
 
 相关:AI Agent 驱动 Model Management / Scheduler 的想法已在
 [REQ-20261110](../feature-history/REQ-20261110-ai-agent-model-management-scheduler.md) 中。

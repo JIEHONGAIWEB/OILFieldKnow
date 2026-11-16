@@ -37,7 +37,8 @@ See the README.md inside each folder for what belongs there.
 ## 文档阅读器(MkDocs Material)
 
 - 首次安装:`pip install mkdocs-material`
-- <mark>**启动:双击 `serve-docs.bat`,或运行 `python -m mkdocs serve`,浏览器打开 http://127.0.0.1:8000**</mark>
+- <mark>**启动:双击 `serve-docs.bat`,或运行 `python -m mkdocs serve`,浏览器打开 http://127.0.0.1:8000**
+- 后台启动(无窗口):双击 `start-docs.bat`;停止:双击 `stop-docs.bat`</mark>
 - 修改 `.md` 文件后页面自动刷新;支持全文搜索、暗色模式
 - 配置:`mkdocs.yml`;收集文档的逻辑在 `.mkdocs/hooks.py`(排除 `.claude`、`copilot` 等目录)
 - 生成静态站点:`python -m mkdocs build`(输出到 `.site/`)

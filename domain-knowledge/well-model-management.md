@@ -7,6 +7,8 @@ monitor. It does not answer *"how much oil did we produce today?"* but rather:
 > **Are our well models trustworthy? Which wells need re-calibration? Which wells
 > should be well-tested first?**
 
+> KPI calculation per lift type: [well-model-kpi-rules.md](well-model-kpi-rules.md) ([中文](well-model-kpi-rules-zh.md)).
+>
 > Related: [wpo-surveillance-concepts.md](wpo-surveillance-concepts.md) (WPE / Well
 > Test Validation / Model Quality) and the production-monitoring docs under
 > [production/](production/README.md).
