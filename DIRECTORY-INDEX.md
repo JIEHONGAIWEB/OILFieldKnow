@@ -124,6 +124,9 @@
 | ├ `well-model-management.md` | 井模型管理 | Well Model Management 看板的业务背景 |
 | ├ `well-model-kpi-rules.md` | 井模型 KPI 规则 | 各举升类型（自然流/ESP/气举）Well Model KPI 的评级规则与回退逻辑 |
 | ├ `well-model-kpi-rules-zh.md` | 井模型 KPI 规则（中文版） | Well Model KPI 评级规则中文版 |
+| ├ `well-test-model-calibration-data-prep.md` | 试井与模型校准数据准备 | 试井管理、模型校准前需准备的数据清单与对比、Data Readiness Check 设计建议 |
+| ├ `vlp-and-ipr.md` | VLP 与 IPR 曲线计算 | IPR/VLP 工作点原理、模型校准中的作用与业务价值 |
+| ├ `operating-point.md` | 工作点（Operating Point） | 工作点的生产决策意义、方案比选与模型校准应用 |
 | └ `spe-insight-agent.md` | SPE Insight Agent | DS365.ai 中基于 SPE 论文的 AI 助手(帖子翻译) |
 | `business-model/` | 业务模型 | 业务域(`domains/`)、业务流程(`workflows/`)、术语 |
 
