@@ -122,6 +122,8 @@
 | ├ `wpo-surveillance-concepts.md` | WPO 监控概念 | 生产优化监控概念（英文） |
 | ├ `wpo-surveillance-concepts-zh.md` | WPO 监控概念（中文版） | 生产优化监控概念中文译文 |
 | ├ `well-model-management.md` | 井模型管理 | Well Model Management 看板的业务背景 |
+| ├ `well-model-kpi-rules.md` | 井模型 KPI 规则 | 各举升类型（自然流/ESP/气举）Well Model KPI 的评级规则与回退逻辑 |
+| ├ `well-model-kpi-rules-zh.md` | 井模型 KPI 规则（中文版） | Well Model KPI 评级规则中文版 |
 | └ `spe-insight-agent.md` | SPE Insight Agent | DS365.ai 中基于 SPE 论文的 AI 助手(帖子翻译) |
 | `business-model/` | 业务模型 | 业务域(`domains/`)、业务流程(`workflows/`)、术语 |
 
