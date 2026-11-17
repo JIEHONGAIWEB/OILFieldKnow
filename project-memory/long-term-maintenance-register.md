@@ -9,6 +9,7 @@
 - 维护长久-项目建设：JIEHONGAIWEB/corePracticePerson
 - 自动化测试：JIEHONGAIWEB/AutoUITest
 - 个人知识库：JIEHONGAIWEB/NewsKnowAll
+- 请假系统：文档在 SharePoint（AutonomousProductionRDTeam），代码仓库待补充
 - 维护长久-长期目标：跨项目文档化、标准化、可追踪化
 
 ## 2. 项目地址与文档地址
@@ -19,6 +20,7 @@
 | 维护长久-项目建设 | JIEHONGAIWEB/corePracticePerson | https://github.com/JIEHONGAIWEB/corePracticePerson | https://github.com/JIEHONGAIWEB/corePracticePerson#readme | https://github.com/JIEHONGAIWEB/corePracticePerson/tree/main/docs | 作为系统建设与落地项目(本地 react-app,详见 [system-whole-person-react-app-overview.md](system-whole-person-react-app-overview.md)) |
 | 自动化测试 | JIEHONGAIWEB/AutoUITest | https://github.com/JIEHONGAIWEB/AutoUITest | https://github.com/JIEHONGAIWEB/AutoUITest#readme | https://github.com/JIEHONGAIWEB/AutoUITest/tree/main/docs | 作为自动化测试能力建设 |
 | 个人知识库 | JIEHONGAIWEB/NewsKnowAll | https://github.com/JIEHONGAIWEB/NewsKnowAll | https://github.com/JIEHONGAIWEB/NewsKnowAll#readme | https://github.com/JIEHONGAIWEB/NewsKnowAll/tree/main/docs | 本地目录 personal-konw(MkDocs 阅读器,http://127.0.0.1:9000);热点/社会/历史/经济/政治/金融/文化/教育知识沉淀;2026-11-17 首次推送 main |
+| 请假系统 | 待补充 | 待补充 | https://halliburton.sharepoint.com/:x:/s/AutonomousProductionRDTeam/IQADPUkFLYEATq9ePOMzf8FKAX0sF40jaMLmco6wxNXMi1k?e=OlayM0 | 待补充 | SharePoint Excel（站点 AutonomousProductionRDTeam）；需公司账号登录；内容尚未核实，仅记录地址；2026-11-17 加入 |
 
 ### 2.1 运行环境地址
 
@@ -33,6 +35,7 @@
 | 名称 | 地址 | 平台 | 备注 | 加入日期 |
 |---|---|---|---|---|
 | Well Performance Optimization（WPO）用户指南 | https://gitlab.com/ds365ai/DFSDEV/apps/01-well-performance-optimization/docs/wpo-user-guide | GitLab（ds365ai / DFSDEV / 02-Apps / 01-Well Performance Optimization / Docs） | 需通过 GitLab SAML SSO 登录访问；页面内容尚未核实，仅记录地址 | 2026-11-16 |
+| 请假系统文档（Excel） | https://halliburton.sharepoint.com/:x:/s/AutonomousProductionRDTeam/IQADPUkFLYEATq9ePOMzf8FKAX0sF40jaMLmco6wxNXMi1k?e=OlayM0 | SharePoint（AutonomousProductionRDTeam） | 需公司账号登录；内容尚未核实，仅记录地址；对应第 2 节“请假系统” | 2026-11-17 |
 
 ## 3. 长期目标（书面化）
 

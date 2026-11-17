@@ -29,6 +29,7 @@
   - 维护长久-知识图谱:JIEHONGAIWEB/OILFieldKnow
   - 维护长久-项目建设:JIEHONGAIWEB/corePracticePerson
   - 个人知识库:JIEHONGAIWEB/NewsKnowAll(本地 personal-konw)
+  - 请假系统:文档为 SharePoint Excel,地址见台账
   - 自动化测试:JIEHONGAIWEB/AutoUITest
   - 维护长久-长期目标:文档化、标准化、可追踪化,含每周/双周/每月维护节奏
 
