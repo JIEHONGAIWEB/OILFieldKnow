@@ -25,9 +25,10 @@
 
 - [project-memory/long-term-maintenance-register.md](project-memory/long-term-maintenance-register.md):长期维护项目与文档地址台账
 - [project-memory/dfs-dojo-armour-overview.md](project-memory/dfs-dojo-armour-overview.md):DFS Dojo Armour 项目介绍与能力地图(AI 操作画布的参考实现,对照 WPO Agent 想法)
-- [project-memory/system-whole-person-react-app-overview.md](project-memory/system-whole-person-react-app-overview.md):systemWholePerson / react-app 项目介绍与文档集成(工作台、AI-first 规则、LangGraph 流水线)
+- [project-memory/system-whole-person-react-app-overview.md](project-memory/system-whole-person-react-app-overview.md):corePracticePerson / react-app 项目介绍与文档集成(工作台、AI-first 规则、LangGraph 流水线)
   - 维护长久-知识图谱:JIEHONGAIWEB/OILFieldKnow
-  - 维护长久-项目建设:JIEHONGAIWEB/systemWholePerson
+  - 维护长久-项目建设:JIEHONGAIWEB/corePracticePerson
+  - 个人知识库:JIEHONGAIWEB/NewsKnowAll(本地 personal-konw)
   - 自动化测试:JIEHONGAIWEB/AutoUITest
   - 维护长久-长期目标:文档化、标准化、可追踪化,含每周/双周/每月维护节奏
 
@@ -124,6 +125,9 @@
 | ├ `well-model-management.md` | 井模型管理 | Well Model Management 看板的业务背景 |
 | ├ `well-model-kpi-rules.md` | 井模型 KPI 规则 | 各举升类型（自然流/ESP/气举）Well Model KPI 的评级规则与回退逻辑 |
 | ├ `well-model-kpi-rules-zh.md` | 井模型 KPI 规则（中文版） | Well Model KPI 评级规则中文版 |
+| ├ `well-test-model-calibration-data-prep.md` | 试井与模型校准数据准备 | 试井管理、模型校准前需准备的数据清单与对比、Data Readiness Check 设计建议 |
+| ├ `vlp-and-ipr.md` | VLP 与 IPR 曲线计算 | IPR/VLP 工作点原理、模型校准中的作用与业务价值 |
+| ├ `operating-point.md` | 工作点（Operating Point） | 工作点的生产决策意义、方案比选与模型校准应用 |
 | └ `spe-insight-agent.md` | SPE Insight Agent | DS365.ai 中基于 SPE 论文的 AI 助手(帖子翻译) |
 | `business-model/` | 业务模型 | 业务域(`domains/`)、业务流程(`workflows/`)、术语 |
 
@@ -246,3 +250,9 @@
 | 写提交、推送代码 | `skill/copilot/olivia-targeted-commit`、`pre-push-safety` |
 | 润色消息、写站会、写发布通知 | `agents/communication/` |
 | 写邮件、会议、催办话术 | `communication/` |
+
+---
+
+## 🌐 快速入口:浏览器调试(抓不到页面时)
+
+- [skill/browser/chrome-devtools-mcp.md](skill/browser/chrome-devtools-mcp.md):Chrome DevTools MCP 配置 + 桌面快捷方式 `Edge Debug 9222`(带 `--remote-debugging-port=9222`),可复用 SSO 登录态

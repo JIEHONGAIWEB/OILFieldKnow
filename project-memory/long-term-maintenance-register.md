@@ -1,13 +1,14 @@
 # 长期维护项目与文档地址台账
 
-更新时间：2026-11-12
+更新时间：2026-11-17
 维护主题：维护长久
 
 ## 1. 维护范围
 
 - 维护长久-知识图谱：JIEHONGAIWEB/OILFieldKnow
-- 维护长久-项目建设：JIEHONGAIWEB/systemWholePerson
+- 维护长久-项目建设：JIEHONGAIWEB/corePracticePerson
 - 自动化测试：JIEHONGAIWEB/AutoUITest
+- 个人知识库：JIEHONGAIWEB/NewsKnowAll
 - 维护长久-长期目标：跨项目文档化、标准化、可追踪化
 
 ## 2. 项目地址与文档地址
@@ -15,8 +16,9 @@
 | 维护方向 | 仓库标识 | 项目地址 | 文档地址（当前） | 文档地址（建议） | 备注 |
 |---|---|---|---|---|---|
 | 维护长久-知识图谱 | JIEHONGAIWEB/OILFieldKnow | https://github.com/JIEHONGAIWEB/OILFieldKnow | https://github.com/JIEHONGAIWEB/OILFieldKnow#readme | https://github.com/JIEHONGAIWEB/OILFieldKnow/tree/main/docs | 作为知识图谱与文档中枢 |
-| 维护长久-项目建设 | JIEHONGAIWEB/systemWholePerson | https://github.com/JIEHONGAIWEB/systemWholePerson | https://github.com/JIEHONGAIWEB/systemWholePerson#readme | https://github.com/JIEHONGAIWEB/systemWholePerson/tree/main/docs | 作为系统建设与落地项目(本地 react-app,详见 [system-whole-person-react-app-overview.md](system-whole-person-react-app-overview.md)) |
+| 维护长久-项目建设 | JIEHONGAIWEB/corePracticePerson | https://github.com/JIEHONGAIWEB/corePracticePerson | https://github.com/JIEHONGAIWEB/corePracticePerson#readme | https://github.com/JIEHONGAIWEB/corePracticePerson/tree/main/docs | 作为系统建设与落地项目(本地 react-app,详见 [system-whole-person-react-app-overview.md](system-whole-person-react-app-overview.md)) |
 | 自动化测试 | JIEHONGAIWEB/AutoUITest | https://github.com/JIEHONGAIWEB/AutoUITest | https://github.com/JIEHONGAIWEB/AutoUITest#readme | https://github.com/JIEHONGAIWEB/AutoUITest/tree/main/docs | 作为自动化测试能力建设 |
+| 个人知识库 | JIEHONGAIWEB/NewsKnowAll | https://github.com/JIEHONGAIWEB/NewsKnowAll | https://github.com/JIEHONGAIWEB/NewsKnowAll#readme | https://github.com/JIEHONGAIWEB/NewsKnowAll/tree/main/docs | 本地目录 personal-konw(MkDocs 阅读器,http://127.0.0.1:9000);热点/社会/历史/经济/政治/金融/文化/教育知识沉淀;2026-11-17 首次推送 main |
 
 ### 2.1 运行环境地址
 
@@ -25,6 +27,12 @@
 | Harmony UI（DFS Dojo，dev） | https://harmony-ui-dfsdojo-dev.tiger.dazlmkengdev02.ienergycloud.solutions/ | Tiger dev（域名中含 dazlmkengdev02） | Harmony 前端入口；相关背景见 [dfs-dojo-armour-overview.md](dfs-dojo-armour-overview.md)、[subsurface-studio-harmony-showcase.md](subsurface-studio-harmony-showcase.md)、[dfs-ai-assistant-overview.md](dfs-ai-assistant-overview.md) | 2026-11-12 |
 
 > 用途和访问权限根据域名名称推断，尚未打开核实；需要登录与否、对应的负责人，见第 5 节待补充项。
+
+### 2.2 外部文档地址
+
+| 名称 | 地址 | 平台 | 备注 | 加入日期 |
+|---|---|---|---|---|
+| Well Performance Optimization（WPO）用户指南 | https://gitlab.com/ds365ai/DFSDEV/apps/01-well-performance-optimization/docs/wpo-user-guide | GitLab（ds365ai / DFSDEV / 02-Apps / 01-Well Performance Optimization / Docs） | 需通过 GitLab SAML SSO 登录访问；页面内容尚未核实，仅记录地址 | 2026-11-16 |
 
 ## 3. 长期目标（书面化）
 

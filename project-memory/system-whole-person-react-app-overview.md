@@ -1,8 +1,8 @@
-# systemWholePerson / react-app:项目介绍与文档集成
+# corePracticePerson / react-app:项目介绍与文档集成
 
 **收录日期:** 2026-11-10
 **本地路径:** `C:\Users\h224847\code\学习-code\react\react-app`
-**远程仓库:** `https://github.com/JIEHONGAIWEB/systemWholePerson`(台账中的"维护长久-项目建设",见 [long-term-maintenance-register.md](long-term-maintenance-register.md))
+**远程仓库:** `https://github.com/JIEHONGAIWEB/corePracticePerson`(台账中的"维护长久-项目建设",见 [long-term-maintenance-register.md](long-term-maintenance-register.md))
 **类型:** 个人学习/实验项目 + AI 协作工作台(非 WPO 业务代码)
 **来源:** 项目 README、`AGENTS.md`、`docs/`、`skills/`、`src/master/`、`public/docs/system-manual.md` 等;内容以仓库为准。
 

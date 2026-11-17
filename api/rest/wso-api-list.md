@@ -11,7 +11,7 @@ URL 模式:`api/router/wpo/wpoService/msp/v1/<endpoint>`(下表省略前缀 `api
 
 | # | Endpoint | 用途 | 已在详细文档中 |
 | --- | --- | --- | --- |
-| 1 | `wpo/wells/esp-production-summaries` | KPI 卡片(Oil/Gas Production Summary) | ✅ wso-v1-overview-api |
+| 1 | `wpo/wells/esp-production-summaries` | KPI 卡片(Oil/Gas Production Summary) | ✅ wso-v1-overview-api、[后端字段与运算](esp-production-summaries-api.md) |
 | 2 | `wpo/wells/esp/map` | Map view | ✅ |
 | 3 | `wpo/wells/oil-rate-comparison` | Oil Rate Comparison 图 | ✅ |
 | 4 | `wpo/wells/optimizations/aggregated-data-analyses` | 待补充 | ❌ |
