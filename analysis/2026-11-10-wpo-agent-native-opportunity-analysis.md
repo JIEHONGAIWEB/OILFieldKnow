@@ -436,7 +436,7 @@ Agent 输出(UI Schema / UI Action)
 ## 12. 参考资料
 
 - [DFS Dojo Armour 项目介绍](../project-memory/dfs-dojo-armour-overview.md)(已实现"AI 操作画布 + 组件库 + 模板"的参考产品,第 8 节对照了借鉴点与差异)
-- [systemWholePerson / react-app 项目介绍](../project-memory/system-whole-person-react-app-overview.md)(个人版"技能沉淀 + LangGraph 流水线"实践,第 9 节对照了 5.5 流程沉淀)
+- [corePracticePerson / react-app 项目介绍](../project-memory/system-whole-person-react-app-overview.md)(个人版"技能沉淀 + LangGraph 流水线"实践,第 9 节对照了 5.5 流程沉淀)
 - [WPO 引入 MCP:需求分析](2026-11-10-wpo-mcp-requirement-analysis.md)
 - [AI Agent 趋势探索](2026-11-10-ai-agent-trend-exploration-analysis.md)
 - [WSO API 清单](../api/rest/wso-api-list.md)

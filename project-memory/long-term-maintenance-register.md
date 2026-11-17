@@ -1,13 +1,14 @@
 # 长期维护项目与文档地址台账
 
-更新时间：2026-11-16
+更新时间：2026-11-17
 维护主题：维护长久
 
 ## 1. 维护范围
 
 - 维护长久-知识图谱：JIEHONGAIWEB/OILFieldKnow
-- 维护长久-项目建设：JIEHONGAIWEB/systemWholePerson
+- 维护长久-项目建设：JIEHONGAIWEB/corePracticePerson
 - 自动化测试：JIEHONGAIWEB/AutoUITest
+- 个人知识库：JIEHONGAIWEB/NewsKnowAll
 - 维护长久-长期目标：跨项目文档化、标准化、可追踪化
 
 ## 2. 项目地址与文档地址
@@ -15,8 +16,9 @@
 | 维护方向 | 仓库标识 | 项目地址 | 文档地址（当前） | 文档地址（建议） | 备注 |
 |---|---|---|---|---|---|
 | 维护长久-知识图谱 | JIEHONGAIWEB/OILFieldKnow | https://github.com/JIEHONGAIWEB/OILFieldKnow | https://github.com/JIEHONGAIWEB/OILFieldKnow#readme | https://github.com/JIEHONGAIWEB/OILFieldKnow/tree/main/docs | 作为知识图谱与文档中枢 |
-| 维护长久-项目建设 | JIEHONGAIWEB/systemWholePerson | https://github.com/JIEHONGAIWEB/systemWholePerson | https://github.com/JIEHONGAIWEB/systemWholePerson#readme | https://github.com/JIEHONGAIWEB/systemWholePerson/tree/main/docs | 作为系统建设与落地项目(本地 react-app,详见 [system-whole-person-react-app-overview.md](system-whole-person-react-app-overview.md)) |
+| 维护长久-项目建设 | JIEHONGAIWEB/corePracticePerson | https://github.com/JIEHONGAIWEB/corePracticePerson | https://github.com/JIEHONGAIWEB/corePracticePerson#readme | https://github.com/JIEHONGAIWEB/corePracticePerson/tree/main/docs | 作为系统建设与落地项目(本地 react-app,详见 [system-whole-person-react-app-overview.md](system-whole-person-react-app-overview.md)) |
 | 自动化测试 | JIEHONGAIWEB/AutoUITest | https://github.com/JIEHONGAIWEB/AutoUITest | https://github.com/JIEHONGAIWEB/AutoUITest#readme | https://github.com/JIEHONGAIWEB/AutoUITest/tree/main/docs | 作为自动化测试能力建设 |
+| 个人知识库 | JIEHONGAIWEB/NewsKnowAll | https://github.com/JIEHONGAIWEB/NewsKnowAll | https://github.com/JIEHONGAIWEB/NewsKnowAll#readme | https://github.com/JIEHONGAIWEB/NewsKnowAll/tree/main/docs | 本地目录 personal-konw(MkDocs 阅读器,http://127.0.0.1:9000);热点/社会/历史/经济/政治/金融/文化/教育知识沉淀;2026-11-17 首次推送 main |
 
 ### 2.1 运行环境地址
 

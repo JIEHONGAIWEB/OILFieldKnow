@@ -25,9 +25,9 @@
 
 - [project-memory/long-term-maintenance-register.md](project-memory/long-term-maintenance-register.md):长期维护项目与文档地址台账
 - [project-memory/dfs-dojo-armour-overview.md](project-memory/dfs-dojo-armour-overview.md):DFS Dojo Armour 项目介绍与能力地图(AI 操作画布的参考实现,对照 WPO Agent 想法)
-- [project-memory/system-whole-person-react-app-overview.md](project-memory/system-whole-person-react-app-overview.md):systemWholePerson / react-app 项目介绍与文档集成(工作台、AI-first 规则、LangGraph 流水线)
+- [project-memory/system-whole-person-react-app-overview.md](project-memory/system-whole-person-react-app-overview.md):corePracticePerson / react-app 项目介绍与文档集成(工作台、AI-first 规则、LangGraph 流水线)
   - 维护长久-知识图谱:JIEHONGAIWEB/OILFieldKnow
-  - 维护长久-项目建设:JIEHONGAIWEB/systemWholePerson
+  - 维护长久-项目建设:JIEHONGAIWEB/corePracticePerson
   - 个人知识库:JIEHONGAIWEB/NewsKnowAll(本地 personal-konw)
   - 自动化测试:JIEHONGAIWEB/AutoUITest
   - 维护长久-长期目标:文档化、标准化、可追踪化,含每周/双周/每月维护节奏
