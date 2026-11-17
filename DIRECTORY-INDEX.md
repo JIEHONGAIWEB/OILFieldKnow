@@ -28,6 +28,7 @@
 - [project-memory/system-whole-person-react-app-overview.md](project-memory/system-whole-person-react-app-overview.md):systemWholePerson / react-app 项目介绍与文档集成(工作台、AI-first 规则、LangGraph 流水线)
   - 维护长久-知识图谱:JIEHONGAIWEB/OILFieldKnow
   - 维护长久-项目建设:JIEHONGAIWEB/systemWholePerson
+  - 个人知识库:JIEHONGAIWEB/NewsKnowAll(本地 personal-konw)
   - 自动化测试:JIEHONGAIWEB/AutoUITest
   - 维护长久-长期目标:文档化、标准化、可追踪化,含每周/双周/每月维护节奏
 
@@ -249,3 +250,9 @@
 | 写提交、推送代码 | `skill/copilot/olivia-targeted-commit`、`pre-push-safety` |
 | 润色消息、写站会、写发布通知 | `agents/communication/` |
 | 写邮件、会议、催办话术 | `communication/` |
+
+---
+
+## 🌐 快速入口:浏览器调试(抓不到页面时)
+
+- [skill/browser/chrome-devtools-mcp.md](skill/browser/chrome-devtools-mcp.md):Chrome DevTools MCP 配置 + 桌面快捷方式 `Edge Debug 9222`(带 `--remote-debugging-port=9222`),可复用 SSO 登录态
