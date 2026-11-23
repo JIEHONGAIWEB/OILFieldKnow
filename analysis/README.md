@@ -28,6 +28,7 @@
 - [2026-11-10-wpo-mcp-requirement-analysis.md](2026-11-10-wpo-mcp-requirement-analysis.md) — WPO 引入 MCP:需求分析与可探索方向
 
 - [2026-11-10-wpo-agent-native-opportunity-analysis.md](2026-11-10-wpo-agent-native-opportunity-analysis.md) — WPO Agent-Native:用 Agent 取代界面操作的机会分析
+- [2026-11-23-lmk-well-0403-esp-flow-test-analysis.md](2026-11-23-lmk-well-0403-esp-flow-test-analysis.md) — LMK-Well-0403 ESP Flow Test 数据分析(产能、GOR 单位疑点、IPR/VLP 所需补充数据)
 
 ## 推荐写作流程
 

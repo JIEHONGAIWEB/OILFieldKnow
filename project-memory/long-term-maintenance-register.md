@@ -29,6 +29,7 @@
 | Harmony UI（DFS Dojo，dev） | https://harmony-ui-dfsdojo-dev.tiger.dazlmkengdev02.ienergycloud.solutions/ | Tiger dev（域名中含 dazlmkengdev02） | Harmony 前端入口；相关背景见 [dfs-dojo-armour-overview.md](dfs-dojo-armour-overview.md)、[subsurface-studio-harmony-showcase.md](subsurface-studio-harmony-showcase.md)、[dfs-ai-assistant-overview.md](dfs-ai-assistant-overview.md) | 2026-11-12 |
 
 > 用途和访问权限根据域名名称推断，尚未打开核实；需要登录与否、对应的负责人，见第 5 节待补充项。
+> Harmony 登录密码保存在本机文件 [credentials.local.md](credentials.local.md)(已被 `.gitignore` 忽略,不进入 Git)。
 
 ### 2.2 外部文档地址
 

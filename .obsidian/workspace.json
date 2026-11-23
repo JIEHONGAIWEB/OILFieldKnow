@@ -1,0 +1,205 @@
+{
+  "main": {
+    "id": "416ca69b09a31e2f",
+    "type": "split",
+    "children": [
+      {
+        "id": "8b94f7df9e133f43",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5da198d2e82bf4e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "api/mcp/dspdm-mcp.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "dspdm-mcp"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "971c5cb1d442ce4b",
+    "type": "split",
+    "children": [
+      {
+        "id": "f61a981f876dc042",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7d11d33a8e93c2f9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "8580c72272190014",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "1c1f9040a31d495b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 479.1000061035156
+  },
+  "right": {
+    "id": "46bd37b7913f364c",
+    "type": "split",
+    "children": [
+      {
+        "id": "269e87e001d49264",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ad1b4a10f3fcfd9a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "api/mcp/dspdm-mcp.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "d124d2396515a4a9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "api/mcp/dspdm-mcp.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "ffb972b470ea6d5b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "a4d4add1e4cae9d4",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "f7ea6ab2afecac40",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "api/mcp/dspdm-mcp.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "5da198d2e82bf4e1",
+  "lastOpenFiles": [
+    "analysis/2026-11-10-wpo-mcp-requirement-analysis.md",
+    "analysis/2026-11-12-spe-insight-agent-capability-analysis.md",
+    "analysis/2026-11-12-ui-automation-agent-steps-analysis.md",
+    "analysis/2026-11-23-lmk-well-0403-esp-flow-test-analysis.md",
+    "DIRECTORY-INDEX.md",
+    "analysis/2026-11-10-wpo-agent-native-opportunity-analysis.md",
+    "project-memory/credentials.local.md",
+    "data-model/entities/well-test-csv-mapping.md",
+    "data-model/entities/pdm-boquery-zh.md",
+    "data-model/entities/README.md",
+    "data-model/entities/pdm-boquery.md"
+  ]
+}

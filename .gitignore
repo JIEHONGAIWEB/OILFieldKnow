@@ -1,2 +1,5 @@
 # MkDocs build output
 .site/
+
+# Local credentials (never commit)
+project-memory/credentials.local.md
