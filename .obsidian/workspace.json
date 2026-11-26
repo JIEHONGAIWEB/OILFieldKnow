@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "analysis/2026-11-26-advanced-engineering-governance-course-analysis.md",
+                "file": "project-memory/bulk-import-architecture.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-11-26-advanced-engineering-governance-course-analysis"
+              "title": "bulk-import-architecture"
             }
           }
         ],
@@ -219,12 +219,13 @@
   },
   "active": "3a74b9008df0606b",
   "lastOpenFiles": [
+    "analysis/2026-11-26-advanced-engineering-governance-course-analysis.md",
+    "project-memory/bulk-import-architecture.md",
     "analysis/2026-11-26-maintainability-cross-module-comparison-analysis.md",
     "analysis/2026-11-26-trend-analysis-developer-level-report-analysis.md",
     "analysis/2026-11-26-wpe-well-test-validation-overview-maintainability-assessment-analysis.md",
     "analysis/2026-11-26-wso-maintainability-assessment-analysis.md",
     "analysis/2026-11-26-mid-vs-senior-developer-difference-analysis.md",
-    "analysis/2026-11-26-advanced-engineering-governance-course-analysis.md",
     "analysis/2026-11-26-dev-local-branch-evaluation-analysis.md",
     "analysis/2026-11-26-developer-retention-assessment-analysis.md",
     "analysis/sednlayn2",
@@ -245,7 +246,6 @@
     "analysis/2026-11-12-spe-insight-agent-capability-analysis.md",
     "analysis/2026-11-12-ui-automation-agent-steps-analysis.md",
     "analysis/2026-11-23-lmk-well-0403-esp-flow-test-analysis.md",
-    "analysis/2026-11-10-wpo-agent-native-opportunity-analysis.md",
-    "project-memory/credentials.local.md"
+    "analysis/2026-11-10-wpo-agent-native-opportunity-analysis.md"
   ]
 }

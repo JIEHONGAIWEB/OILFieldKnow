@@ -9,3 +9,4 @@ Rolling, append-friendly memory files an AI assistant should read at the start o
 - [dfs-ai-assistant-overview.md](dfs-ai-assistant-overview.md):DFS AI Assistant 项目说明(Harmony 迁移后做什么;README 与现状的出入)
 - [dfs-dojo-armour-overview.md](dfs-dojo-armour-overview.md):DFS Dojo Armour 项目介绍与能力地图(画布 + 组件 + AI 操作画布,WPO Agent 想法的参考实现)
 - [system-whole-person-react-app-overview.md](system-whole-person-react-app-overview.md):corePracticePerson / react-app 项目介绍(个人工作台 + AI-first 文档规则 + LangGraph 需求→代码流水线)
+- [bulk-import-architecture.md](bulk-import-architecture.md):bulk-import 微前端架构说明(Module Federation remote、child MFE 信息链路、NgRx 数据流、构建部署与已知问题)
