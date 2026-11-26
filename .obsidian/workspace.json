@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "open-questions/2026-11-25-agent-ui-entry-answer-not-understandable.md",
+                "file": "analysis/2026-11-26-advanced-engineering-governance-course-analysis.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-11-25-agent-ui-entry-answer-not-understandable"
+              "title": "2026-11-26-advanced-engineering-governance-course-analysis"
             }
           }
         ],
@@ -112,7 +112,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 479.1000061035156
+    "width": 363.8999938964844
   },
   "right": {
     "id": "46bd37b7913f364c",
@@ -219,21 +219,33 @@
   },
   "active": "3a74b9008df0606b",
   "lastOpenFiles": [
+    "analysis/2026-11-26-maintainability-cross-module-comparison-analysis.md",
+    "analysis/2026-11-26-trend-analysis-developer-level-report-analysis.md",
+    "analysis/2026-11-26-wpe-well-test-validation-overview-maintainability-assessment-analysis.md",
+    "analysis/2026-11-26-wso-maintainability-assessment-analysis.md",
+    "analysis/2026-11-26-mid-vs-senior-developer-difference-analysis.md",
+    "analysis/2026-11-26-advanced-engineering-governance-course-analysis.md",
+    "analysis/2026-11-26-dev-local-branch-evaluation-analysis.md",
+    "analysis/2026-11-26-developer-retention-assessment-analysis.md",
+    "analysis/sednlayn2",
+    "analysis/2026-11-26-shared-com-chart-com-map-maintainability-assessment-analysis.md",
+    "analysis/DEV_LOCAL_BRANCH_EVALUATION_20261126.md",
+    "analysis/WSO_MAINTAINABILITY_ASSESSMENT_20261126.md",
+    "analysis/WPE_WTV_OVERVIEW_MAINTAINABILITY_ASSESSMENT_20261126.md",
+    "analysis/SHARED_COM_CHART_COM_MAP_MAINTAINABILITY_ASSESSMENT_20261126.md",
+    "analysis/MAINTAINABILITY_CROSS_MODULE_COMPARISON_20261126.md",
+    "analysis/README.md.tmp.30728.c97fb9c19d2f",
     "open-questions/2026-11-25-dspdm-agent-oil-rate-multiline-chart.md",
+    "project-memory/long-term-maintenance-register.md",
     "open-questions/2026-11-25-agent-ui-entry-answer-not-understandable.md",
     "DIRECTORY-INDEX.md",
     "project-memory/subsurface-studio-harmony-showcase.md",
-    "project-memory/long-term-maintenance-register.md",
     "api/mcp/dspdm-mcp.md",
     "analysis/2026-11-10-wpo-mcp-requirement-analysis.md",
     "analysis/2026-11-12-spe-insight-agent-capability-analysis.md",
     "analysis/2026-11-12-ui-automation-agent-steps-analysis.md",
     "analysis/2026-11-23-lmk-well-0403-esp-flow-test-analysis.md",
     "analysis/2026-11-10-wpo-agent-native-opportunity-analysis.md",
-    "project-memory/credentials.local.md",
-    "data-model/entities/well-test-csv-mapping.md",
-    "data-model/entities/pdm-boquery-zh.md",
-    "data-model/entities/README.md",
-    "data-model/entities/pdm-boquery.md"
+    "project-memory/credentials.local.md"
   ]
 }
